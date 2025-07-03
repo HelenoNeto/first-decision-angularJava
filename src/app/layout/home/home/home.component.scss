@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#main-menu {
+    list-style: none;
+    padding: 0;
+    background-color: #2d2fc7;
+}
+
+#main-menu li {
+    display: inline;
+}
+
+#main-menu li a {
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#main-menu li a:hover {
+    background-color: #93a4a7;
+    padding: 20px;
+}
+
+mat-toolbar {
+    font-weight: bold;
+}

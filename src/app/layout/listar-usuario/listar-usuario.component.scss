@@ -1,0 +1,32 @@
+.tabela-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-moderna {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mat-header-cell {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+}
+
+.mat-cell,
+.mat-header-cell {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,29 @@
+<div class="tabela-container">
+    <table border="1" cellpadding="5" cellspacing="0" class="mat-elevation-z8 tabela-moderna">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let usuario of usuarios">
+                <td>{{ usuario.id }}</td>
+                <td>{{ usuario.nome }}</td>
+                <td>{{ usuario.email }}</td>
+                <td>
+                    <button (click)="editar(usuario)">Editar</button>
+                    <button (click)="excluir(usuario.id)">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <mat-card-actions class="botoes-container">
+        <button mat-raised-button (click)="cancelar()" routerLink="/" class="btn-space">
+            Voltar
+        </button>
+    </mat-card-actions>
+</div>
