@@ -2,6 +2,27 @@ mat-card {
     max-width: 80%;
     margin: 2em auto;
     text-align: center;
+    background-color: #ffffff;
+}
+
+mat-toolbar {
+    background-color: #2d2fc7;
+}
+
+.mat-mdc-text-field-wrapper {
+    background-color: rgb(61, 114, 163) !important;
+    border-radius: 6px;
+}
+
+.mdc-text-field__input {
+    background-color: rgb(190, 190, 190) !important;
+    color: #333;
+}
+
+.mdc-floating-label {
+    background-color: white !important;
+    padding: 0 4px;
+    color: #555;
 }
 
 .full-width {
@@ -19,4 +40,17 @@ mat-card {
 
 .actions-center {
     justify-content: center;
+    padding: 12px 30px;
+    border: none;
+    background: linear-gradient(90deg, #2d2fc7, #2d2fc7);
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-position 0.4s;
+}
+
+.actions-center:hover {
+    background-position: right center;
 }
