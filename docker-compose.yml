@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  angular-app:
+    container_name: angular-container
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4200:4200"
+    command: sh -c "npm install && npm run start"
