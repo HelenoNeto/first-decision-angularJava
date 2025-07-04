@@ -53,7 +53,7 @@ export class UsuarioServiceService {
   }
 
   private onError() {
-    this.snackbar.open('Erro ao excluir grupo!', '', { duration: 5000 });
+    this.snackbar.open('Erro ao excluir usuário!', '', { duration: 5000 });
   }
 
 }
